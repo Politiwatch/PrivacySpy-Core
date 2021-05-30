@@ -1,0 +1,58 @@
+name = "Signal"
+description = "A secure messenger with End-to-End Encryption backed by a non-profit."
+slug = "signal"
+hostnames = ["signal.org"]
+sources = ["https://signal.org/legal/"]
+contributors = ["Deivedux"]
+
+[rubric.behavioral-marketing]
+value = "no"
+notes = ["Signal does not use personal data for any marketing purposes."]
+
+[rubric.data-breaches]
+value = "no"
+notes = ["The policy does not specify a data breach protocol."]
+
+[rubric.data-collection-reasoning]
+value = "yes"
+notes = ["Signal includes an extensive list of data that it collects, and the reasons why."]
+
+[rubric.data-deletion]
+value = "no"
+notes = ["The policy does not specify a data deletion protocol."]
+
+[rubric.history]
+value = "no"
+notes = ["No history or policy's modification date is made available."]
+
+[rubric.law-enforcement]
+value = "strict"
+citations = ["Other instances where Signal may need to share your data\r\n- To meet any applicable law, regulation, legal process or enforceable governmental request."]
+
+[rubric.list-collected]
+value = "exhaustively"
+notes = ["Signal includes an extensive list of data that it collects, and the reasons why."]
+
+[rubric.noncritical-purposes]
+value = "na"
+citations = ["Additional technical information is stored on our servers, including randomly generated authentication tokens, keys, push tokens, and other material that is necessary to establish calls and transmit messages. Signal limits this additional technical information to the minimum required to operate the Services."]
+
+[rubric.revision-notify]
+value = "no"
+citations = ["We will update this privacy policy as needed so that it is current, accurate, and as clear as possible. Your continued use of our Services confirms your acceptance of our updated Privacy Policy."]
+
+[rubric.security]
+value = "yes"
+citations = [
+  "You register a phone number when you create a Signal account. Phone numbers are used to provide our Services to you and other Signal users. You may optionally add other information to your account, such as a profile name and profile picture. This information is end-to-end encrypted.",
+  "You can manage your personal information in Signal’s application Settings. For example, you can update your profile information or choose to enable additional privacy features like a Registration Lock PIN."
+]
+notes = ["Most, if not all of the personal data security relies on users making use of Signal's automated end-to-end encryption."]
+
+[rubric.third-party-access]
+value = "yes-unspecified-critical"
+citations = ["We work with third parties to provide some of our Services. For example, our Third-Party Providers send a verification code to your phone number when you register for our Services. These providers are bound by their Privacy Policies to safeguard that information."]
+
+[rubric.third-party-collection]
+value = "no"
+notes = ["Signal's policy does not contain information regarding data collection from third-parties."]
