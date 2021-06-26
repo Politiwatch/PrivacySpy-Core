@@ -1,0 +1,69 @@
+name = "TextNow"
+description = "TextNow is a virtual phone service that provides free calling and texting over WiFi"
+slug = "textnow"
+hostnames = [ "textnow.com" ]
+sources = [ "https://www.textnow.com/privacy/" ]
+contributors = [ "kelplover" ]
+
+[rubric.behavioral-marketing]
+value = "yes-opt-out"
+citations = [
+  "\"TextNow provides “Free” Services as well as paid Services for users. In order to pay for the “Free” Service, personalized advertisements are placed before you. \""
+]
+
+[rubric.security]
+value = "somewhat"
+citations = [
+  "\"We safeguard your information in accordance with industry procedures and security standards.\""
+]
+
+[rubric.third-party-collection]
+value = "yes"
+citations = [
+  "\"Name, User ID (alias), email address, Phone Number, IP address, device ID, advertiser ID, device type, settings and operating system.\""
+]
+
+[rubric.history]
+value = "last-modified"
+
+[rubric.data-deletion]
+value = "yes-contact"
+citations = [
+  "\"You may update your personal information (including flagging your messages for deletion) by accessing your account from our website\""
+]
+
+[rubric.data-breaches]
+value = "no"
+
+[rubric.third-party-access]
+value = "yes-specified-noncritical"
+citations = [
+  "\"Latitude/longitude coordinates and general physical location or movements from IP address and Wi-Fi access.\""
+]
+
+[rubric.data-collection-reasoning]
+value = "yes"
+citations = [
+  "\"The table below sets forth the types of data we collect. We use this data for one or more of the following purposes as indicated in such table:\""
+]
+
+[rubric.noncritical-purposes]
+value = "opt-out-some"
+citations = [
+  "\"We “do not track” you across third party websites. However, we do track you as per this Privacy Policy, and further some of our third party advertisers may also track you across other websites or online services.\""
+]
+
+[rubric.law-enforcement]
+value = "reasonable"
+citations = [
+  "\"The governments, courts, law enforcement, and regulatory agencies of which are able to obtain disclosure of your information through the laws of the United States or the laws of Canada.\""
+]
+
+[rubric.list-collected]
+value = "exhaustively"
+
+[rubric.revision-notify]
+value = "yes"
+citations = [
+  "\"Notification of any major changes may be sent to you by email or a system message to your account.\""
+]
