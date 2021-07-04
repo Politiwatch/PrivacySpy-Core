@@ -1,0 +1,58 @@
+name = "GitLab"
+description = "A web-based DevOps tool that provides a Git-respository manager."
+slug = "gitlab"
+hostnames = ["gitlab.com"]
+sources = ["https://about.gitlab.com/privacy/", "https://about.gitlab.com/privacy/privacy-compliance/"]
+contributors = ["Deivedux"]
+
+[rubric.behavioral-marketing]
+value = "yes-opt-out"
+citations = [
+  "We may use your personal information, with your consent, for specific purposes such as marketing, surveys, and research.",
+  "You may opt-out of email marketing by clicking the “unsubscribe” link located at the bottom of any email you receive or by visiting our preference center and unsubscribing.",
+  "If you wish to opt-out of interest-based advertising, please visit the Cookie Policy to see your options."
+]
+
+[rubric.data-breaches]
+value = "no"
+notes = ["The policy does not specify a data breach protocol."]
+
+[rubric.data-collection-reasoning]
+value = "mostly"
+notes = ["The policy lists most, but not explicitly all reasons for collecting personal data."]
+
+[rubric.data-deletion]
+value = "no"
+citations = ["Please note that due to the open source nature of our Services, we may retain limited personal information indefinitely in order to provide a transactional history. For example, if you provide your information in connection with a blog post or comment, we may display that information even if you have deleted your account as we do not automatically delete community posts."]
+
+[rubric.history]
+value = "last-modified"
+citations = ["GitLab may change its Privacy Policy from time to time. When we do, we will update the date at the top of this Policy."]
+
+[rubric.law-enforcement]
+value = "reasonable"
+citations = ["GitLab may disclose personal information or other information we collect about you to law enforcement if required in response to a valid subpoena, court order, search warrant, a similar government order, or when we believe in good faith that disclosure is necessary to comply with our legal obligations, to protect our property or rights, or those of third parties or the public at large."]
+
+[rubric.list-collected]
+value = "generally"
+notes = ["The policy lists the data they collect, though uses ambiguous wordings like \"such as\"."]
+
+[rubric.noncritical-purposes]
+value = "no"
+notes = ["You may limit their use of your data, but not whether they are collected."]
+
+[rubric.revision-notify]
+value = "yes"
+citations = ["If we decide to make a significant change to our Privacy Policy, we will post a notice of the update on the homepage of our Website. We may also provide notification via email of any material changes to our Privacy Policy."]
+
+[rubric.security]
+value = "somewhat"
+citations = ["We work hard to protect your personal information. We employ administrative, technical, and physical security controls where appropriate, to protect your information."]
+
+[rubric.third-party-access]
+value = "no"
+notes = ["They're not sharing personal information with third-parties."]
+
+[rubric.third-party-collection]
+value = "yes"
+citations = ["We may also receive information about you from third parties such as vendors, resellers, partners, or affiliates. For example, we receive information from our resellers about you and your orders, or we may supplement the data we collect with demographic information licensed from third parties in order to personalize the Services and our offers to you."]
