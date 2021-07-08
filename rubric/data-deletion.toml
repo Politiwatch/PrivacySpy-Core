@@ -15,8 +15,13 @@ text = "Yes, by contacting someone"
 percent = 60
 
 [[options]]
+id = "yes-automated-some"
+text = "Yes, for some data, using an automated mechanism"
+percent = 80
+
+[[options]]
 id = "yes-automated"
-text = "Yes, using an automated mechanism"
+text = "Yes, for all data, using an automated mechanism"
 percent = 100
 
 [[options]]
