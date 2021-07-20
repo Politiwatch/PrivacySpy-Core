@@ -66,8 +66,11 @@ notes = [
 value = "opt-out-some"
 citations = [
   "IONOS may also collect information about how users access the website through log files and the use of cookies, and through third party services such as Mouseflow and Google Analytics. Such information may include standard information from your web browser (such as browser type and language), your Internet Protocol (“IP”) address, and the actions you take on IONOS's Web sites (such as the web pages viewed and the links clicked). To opt out of Mouseflow please visit www.mouseflow.com/opt-out/.",
-  "Google’s ability to use and share information collected by Google Analytics about your visits to this Site is restricted by the Google Privacy Policy.  You can prevent Google Analytics from recognizing you on return visits to this Site by disabling the Google Analytics cookie on your browser (https://tools.google.com/dlpage/gaoptout/.)",
+  "Google’s ability to use and share information collected by Google Analytics about your visits to this Site is restricted by the Google Privacy Policy.  You can prevent Google Analytics from recognizing you on return visits to this Site by disabling the Google Analytics cookie on your browser",
   "Our customers and users will occasionally receive newsletters or e-mails with information on products, services, or special offers. Out of respect for the privacy of our users, IONOS gives them the opportunity to opt-out from receiving these types of communications."
+]
+notes = [
+  "To opt-out of Google Analytics, use https://tools.google.com/dlpage/gaoptout/"
 ]
 
 [rubric.law-enforcement]
